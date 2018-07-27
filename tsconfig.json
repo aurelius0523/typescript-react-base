@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "target": "es5",
+    "lib": ["dom", "es6", "scripthost"],
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "skipDefaultLibCheck": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
